@@ -1,29 +1,53 @@
-# netflix-clone
+# Netflix TV Clone
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Netflix TV clone that allows users to stream movies and TV shows on-demand. It's built using Vue 3, Vite, Tailwind CSS, and Pinia. Note that this project only includes the user interface and does not include any backend or database functionality.
 
-## Recommended IDE Setup
+## Getting Started
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+To get started with the project, you'll need to have Node.js and npm installed on your machine. Once you have these installed, follow the steps below:
 
-## Customize configuration
+1. Clone the repository:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+```
+git clone https://github.com/haloglu/netflix-clone.git
+```
 
-## Project Setup
+2. Navigate to the project directory:
 
-```sh
+```
+cd netflix-clone
+```
+
+3. Install dependencies:
+
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+4. Start the development server:
 
-```sh
+```
 npm run dev
 ```
 
-### Compile and Minify for Production
+This will start the development server at `http://localhost:3000`.
 
-```sh
+## Building for Production
+
+To build the project for production, run the following command:
+
+```
 npm run build
 ```
+
+This will generate a `dist` folder containing the compiled assets. You can then deploy this folder to your production server.
+
+## Contributing
+
+Contributions to the project are welcome. To contribute, follow these steps:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Test your changes
+5. Submit a pull request
